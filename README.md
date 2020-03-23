@@ -9,3 +9,7 @@ Get all available tables <br>
 SQL Dump
 - By default, sqldump writes information as SQL statements to the standard output. You can save the output in a file:
 <b><i>mysqldump --user=wikiadmin --password=wikipw --host=db.mywiki.com wikidb > wikidb.sql</i></b>
+
+# Flyway
+
+It works like git.. It's a version control for your database. 
