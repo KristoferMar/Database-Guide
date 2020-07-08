@@ -1,6 +1,14 @@
 # Database-Guide
 MySQL, SQL Commands, noSQL db's, DB commands and much more.
 
+<h2>Mysql</h2>
+Detect if you have MySQL installed with <br>
+<i><b> mysql --version </b></i><br>
+
+Find location to MySQL and it's services <br>
+<i><b>which mysql</b></i><br>
+
+
 ## SQL Commands
 
 Get all available tables <br>
