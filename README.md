@@ -3,7 +3,7 @@ MySQL, SQL Commands, noSQL db's, DB commands and much more.
 
 <h2>General SQL information</h2>
 Introduction to Mysql: <br>
-<a href="https://github.com/KristoferMar/Terminal-guide/blob/master/Files/Less.md" target="_blank">https://github.com/KristoferMar/Terminal-guide/blob/master/Files/Less.md</a><br>
+<a href="https://github.com/KristoferMar/Database-Guide/blob/master/SQL-Info.md" target="_blank">https://github.com/KristoferMar/Database-Guide/blob/master/SQL-Info.md</a><br>
 
 
 <h2>Mysql</h2>
