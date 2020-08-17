@@ -1,6 +1,11 @@
 # Database-Guide
 MySQL, SQL Commands, noSQL db's, DB commands and much more.
 
+<h2>General SQL information</h2>
+Introduction to Mysql: <br>
+<a href="https://github.com/KristoferMar/Terminal-guide/blob/master/Files/Less.md" target="_blank">https://github.com/KristoferMar/Terminal-guide/blob/master/Files/Less.md</a><br>
+
+
 <h2>Mysql</h2>
 Detect if you have MySQL installed with <br>
 <i><b> mysql --version </b></i><br>
@@ -20,4 +25,4 @@ SQL Dump
 
 # Flyway
 
-It works like git.. It's a version control for your database. 
+It works like git.. It's a version control for your database.
