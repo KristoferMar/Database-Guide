@@ -14,12 +14,12 @@ Find location to MySQL and it's services <br>
 <i><b>which mysql</b></i><br>
 
 
-## SQL Commands
+<h2>SQL Commands</h2>
 
 Get all available tables <br>
 <b><i>Select * from INFORMATION_SCHEMA.TABLES; </i></b>
 
-SQL Dump
+<h4>SQL Dump</h4>
 - By default, sqldump produces a set of SQL statements that can be executed to reproduce the original database object definitions and table data. You can save the output in a file in the following way: <br>
 <b><i>mysqldump --user=wikiadmin --password=wikipw --host=db.mywiki.com wikidb > wikidb.sql</i></b>
 
