@@ -19,6 +19,12 @@ Find location to MySQL and it's services <br>
 Get all available tables <br>
 <b><i>Select * from INFORMATION_SCHEMA.TABLES; </i></b>
 
+<h3>Search for keyword</h3>
+You can search for a string keyword in any column the following way <br>
+<i> SELECT * FROM mytable WHERE column1 LIKE '%word1%' OR column1 LIKE '%word2%'</i><br>
+
+
+<br>
 <h4>SQL Dump</h4>
 - By default, sqldump produces a set of SQL statements that can be executed to reproduce the original database object definitions and table data. You can save the output in a file in the following way: <br>
 <b><i>mysqldump --user=wikiadmin --password=wikipw --host=db.mywiki.com wikidb > wikidb.sql</i></b>
