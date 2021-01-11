@@ -48,4 +48,4 @@ You can search for a string keyword in any column the following way <br>
 It works like git.. It's a version control for your database.
 
 
-Hej fra kristofer 
+Hej fra simon 
