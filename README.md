@@ -1,4 +1,4 @@
-# Database-Guide
+<h1>Database-Guide</h1>
 MySQL, SQL Commands, noSQL db's, DB commands and much more.
 
 <h2>General SQL information</h2>
@@ -13,6 +13,20 @@ Detect if you have MySQL installed with <br>
 Find location to MySQL and it's services <br>
 <i><b>which mysql</b></i><br>
 
+<br>
+<h3>MySQL Keywords</h3>
+<h4>SELECT Query</h4>
+The SQL SELECT command is used to fetch data from the MySQL database. 
+```
+SELECT field1, field2 FROM table_name;
+```
+
+<h4>SET</h4>
+The SET command is used with UPDATE to specify which columns and values that should be updated in a table. <br>
+
+```
+UPDATE Customers SET ContactName = 'Kristofer Mar', City= 'Cophenhagen' WHERE CustomerID = 1;
+```
 
 <h2>SQL Commands</h2>
 
@@ -32,3 +46,6 @@ You can search for a string keyword in any column the following way <br>
 # Flyway
 
 It works like git.. It's a version control for your database.
+
+
+Hej fra kristofer 
