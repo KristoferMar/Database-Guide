@@ -46,3 +46,12 @@ You can search for a string keyword in any column the following way <br>
 # Flyway
 
 It works like git.. It's a version control for your database.
+
+<h2>MongoDB</h2>
+It's a non-relational database running in it's own cluster. <br>
+
+<h2>Mongoose</h2>
+It's an elegant mongodb object modeling for node.js <br>
+
+Documentation: <br>
+https://mongoosejs.com/
