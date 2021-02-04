@@ -7,7 +7,6 @@ Introduction to Mysql: <br>
 
 
 <h2>Mysql</h2>
-Executions on mysql server <br><br>
 Detect if you have MySQL installed with <br>
 <i><b> mysql --version </b></i><br>
 
@@ -29,11 +28,13 @@ The SET command is used with UPDATE to specify which columns and values that sho
 UPDATE Customers SET ContactName = 'Kristofer Mar', City= 'Cophenhagen' WHERE CustomerID = 1;
 ```
 
-<br>
 <h2>SQL Commands</h2>
 
 Get all available tables <br>
-<i>Select * from INFORMATION_SCHEMA.TABLES; </i> <br>
+<i>Select * from INFORMATION_SCHEMA.TABLES; </i><br>
+
+Show all users <br>
+<i><i>
 
 <h3>Search for keyword</h3>
 You can search for a string keyword in any column the following way <br>
@@ -48,12 +49,3 @@ You can search for a string keyword in any column the following way <br>
 # Flyway
 
 It works like git.. It's a version control for your database.
-
-<h2>MongoDB</h2>
-It's a non-relational database running in it's own cluster. <br>
-
-<h2>Mongoose</h2>
-It's an elegant mongodb object modeling for node.js <br>
-
-Documentation: <br>
-https://mongoosejs.com/
