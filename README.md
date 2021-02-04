@@ -28,17 +28,24 @@ The SET command is used with UPDATE to specify which columns and values that sho
 UPDATE Customers SET ContactName = 'Kristofer Mar', City= 'Cophenhagen' WHERE CustomerID = 1;
 ```
 
+
+
+<br>
 <h2>SQL Commands</h2>
 
 Get all available tables <br>
 <i>Select * from INFORMATION_SCHEMA.TABLES; </i><br>
 
 Show all users <br>
-<i>SELECT user FROM mysql.user;</i><br>
+<i>SELECT * FROM mysql.user;</i><br>
 
+
+
+<br>
 <h3>Search for keyword</h3>
 You can search for a string keyword in any column the following way <br>
 <i> SELECT * FROM mytable WHERE column1 LIKE '%word1%' OR column1 LIKE '%word2%'</i><br>
+
 
 
 <br>
