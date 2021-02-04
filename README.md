@@ -34,7 +34,7 @@ Get all available tables <br>
 <i>Select * from INFORMATION_SCHEMA.TABLES; </i><br>
 
 Show all users <br>
-<i><i>
+<i>SELECT user FROM mysql.user;</i><br>
 
 <h3>Search for keyword</h3>
 You can search for a string keyword in any column the following way <br>
