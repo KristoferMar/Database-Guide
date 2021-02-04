@@ -7,7 +7,7 @@ Introduction to Mysql: <br>
 
 
 <h2>Mysql</h2>
-Executions on mysql server <br>
+Executions on mysql server <br><br>
 Detect if you have MySQL installed with <br>
 <i><b> mysql --version </b></i><br>
 
