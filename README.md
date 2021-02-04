@@ -29,10 +29,11 @@ The SET command is used with UPDATE to specify which columns and values that sho
 UPDATE Customers SET ContactName = 'Kristofer Mar', City= 'Cophenhagen' WHERE CustomerID = 1;
 ```
 
+<br>
 <h2>SQL Commands</h2>
 
 Get all available tables <br>
-<b><i>Select * from INFORMATION_SCHEMA.TABLES; </i></b>
+<i>Select * from INFORMATION_SCHEMA.TABLES; </i> <br>
 
 <h3>Search for keyword</h3>
 You can search for a string keyword in any column the following way <br>
