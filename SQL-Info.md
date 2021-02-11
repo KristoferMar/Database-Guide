@@ -23,9 +23,10 @@
 - MySQL is an RDBMS to store, retrieve, modify and administrate a database using SQL. <br>
 
 <h2>RDBMS</h2>
-RDBMS stands for Relational Database Management System <br>
+RDBMS stands for Relational Database Management System <br><br>
+
 RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access. <br>
-The data in RDBMS is stored in database objects called tables. A table is a collection of related data entriess and it consists of columns and rows. <br>
+The data in RDBMS is stored in database objects called tables. A table is a collection of related data entriess and it consists of columns and rows. <br><br>
 
 Every table is broken up int smaller entities called fields. The fileds in e.g. a Customer tables can consist of CustomerID, CustomerName, ContactName, Address, City, PostalCode and Country. A field is a column in a table that is designed to mmaintain specific information about every record in the table. <br>
 
