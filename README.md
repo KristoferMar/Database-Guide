@@ -2,8 +2,12 @@
 MySQL, SQL Commands, noSQL db's, DB commands and much more.
 
 <h2>General SQL information</h2>
+SQL is a standard language for accessing and manipulating databases. <br>
+
 Introduction to Mysql: <br>
 <a href="https://github.com/KristoferMar/Database-Guide/blob/master/SQL-Info.md" target="_blank">https://github.com/KristoferMar/Database-Guide/blob/master/SQL-Info.md</a><br>
+
+<h3>SQL </h3>
 
 
 <h2>Mysql</h2>
@@ -51,8 +55,9 @@ You can search for a string keyword in any column the following way <br>
 <br>
 <h4>SQL Dump</h4>
 - By default, sqldump produces a set of SQL statements that can be executed to reproduce the original database object definitions and table data. You can save the output in a file in the following way: <br>
-<b><i>mysqldump --user=wikiadmin --password=wikipw --host=db.mywiki.com wikidb > wikidb.sql</i></b>
+<b><i>mysqldump --user=wikiadmin --password=wikipw --host=db.mywiki.com wikidb > wikidb.sql</i></b><br>
 
-# Flyway
+<br>
+<h2> Flyway </h2>
 
 It works like git.. It's a version control for your database.
