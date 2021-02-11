@@ -10,7 +10,7 @@ Introduction to Mysql: <br>
 
 <h3>SQL Commands</h3>
 <h4>SELECT Query</h4>
-The SQL SELECT command is used to fetch data from the MySQL database. 
+The SQL SELECT command is used to fetch data from the MySQL database.<br>
 
 ```
 SELECT field1, field2 FROM table_name;
@@ -24,7 +24,7 @@ UPDATE Customers SET ContactName = 'Kristofer Mar', City = 'Cophenhagen' WHERE C
 ```
 
 <h4>SQL Joins</h4>
-A JOIN clause is used to combine rows from two or more tables, IF and only IF the two tables have a related column between them. <br>
+A JOIN clause is used to combine rows from two or more tables, IF and only IF the two tables have a related column between them. <br><br>
 
 Let's say we have an "Orders" column and a "Customers" column that have CustomerID in common. Then we could with an INNER JOIN select and structure records that have matching values in both tables. <br>
 
@@ -32,6 +32,7 @@ Let's say we have an "Orders" column and a "Customers" column that have Customer
 SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers. CustomerID;
 ```
 
+<br>
 Different Types of SQL JOINs are: <br>
 - (INNER) JOIN: Returns records that have matching values in both tables <br>
 - LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table <br>
