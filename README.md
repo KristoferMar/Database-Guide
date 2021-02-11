@@ -20,11 +20,27 @@ SELECT field1, field2 FROM table_name;
 The SET command is used with UPDATE to specify which columns and values that should be updated in a table. <br>
 
 ```
-UPDATE Customers SET ContactName = 'Kristofer Mar', City= 'Cophenhagen' WHERE CustomerID = 1;
+UPDATE Customers SET ContactName = 'Kristofer Mar', City = 'Cophenhagen' WHERE CustomerID = 1;
 ```
 
+<h4>SQL Joins</h4>
+A JOIN clause is used to combine rows from two or more tables, IF and only IF the two tables have a related column between them. <br>
+
+Let's say we have an "Orders" column and a "Customers" column that have CustomerID in common. Then we could with an INNER JOIN select and structure records that have matching values in both tables. <br>
+
+```
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers. CustomerID;
+```
+
+Different Types of SQL JOINs are: <br>
+- (INNER) JOIN: Returns records that have matching values in both tables <br>
+- LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table <br>
+- RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table <br>
+- FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table <br>
 
 
+
+<br>
 <h2>Mysql</h2>
 Detect if you have MySQL installed with <br>
 <i><b> mysql --version </b></i><br>
