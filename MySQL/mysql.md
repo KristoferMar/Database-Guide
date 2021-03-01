@@ -32,5 +32,10 @@ It contains "events" that describe database changes such as table cration or cha
 
 - It can be used for Certain data recovery opertaions such as re-executing recored binary logs to brung databases up to date from the point of the backup. <br>
 
+<br>
+Read binary files in the following way<br>
+<pre>
+mysqlbinlog bin.000001 | less
+</pre><br>
+<br>
 The binary log is NOT used for statments such as SELECT or SHOW that do not modify data. To log all statements (for example to identify a problem query) use the general query log. <br>
-
