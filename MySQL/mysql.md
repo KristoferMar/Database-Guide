@@ -21,5 +21,4 @@ SET global log_output = 'table';Reset the general_log table
 SET GLOBAL general_log=OFF;
 
 TRUNCATE table mysql.general_log;
-SET GLOBAL general_log=ON;
-</pre>
+SET GLOBAL general_log=ON;</pre>
