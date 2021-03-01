@@ -22,3 +22,15 @@ SET GLOBAL general_log=OFF;
 
 TRUNCATE table mysql.general_log;
 SET GLOBAL general_log=ON;</pre>
+
+<br>
+<h3>The Binary Log</h3>
+Documentation
+<a href="https://dev.mysql.com/doc/refman/8.0/en/binary-log.html" target="_blank">https://dev.mysql.com/doc/refman/8.0/en/binary-log.html</a><br>
+
+It contains "events" that describe database changes such as table cration or changes to table data. <br>
+
+- It can be used for Certain data recovery opertaions such as re-executing recored binary logs to brung databases up to date from the point of the backup. <br>
+
+The binary log is NOT used for statments such as SELECT or SHOW that do not modify data. To log all statements (for example to identify a problem query) use the general query log. <br>
+
