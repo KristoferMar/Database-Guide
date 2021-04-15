@@ -65,7 +65,7 @@ Show all users <br>
 
 Create a new super user <br>
 <i>CREATE USER 'myuser'@'%' IDENTIFIED BY 'mypass';</i><br>
-<i>GRANT ALL ON *.* TO 'myuser'@'%';</i><br>
+<pre>GRANT ALL ON *.* TO 'myuser'@'%';</pre><br>
 <i>flush privileges;</i> <br>
 
 
