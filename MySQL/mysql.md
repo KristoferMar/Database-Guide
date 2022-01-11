@@ -39,3 +39,8 @@ mysqlbinlog bin.000001 | less
 </pre><br>
 <br>
 The binary log is NOT used for statments such as SELECT or SHOW that do not modify data. To log all statements (for example to identify a problem query) use the general query log. <br>
+
+<br>
+<h3>The MySql Socket</h3>
+The MySql socket path can be found in the following way <br>
+<pre>show variables like 'socket';</pre>

@@ -64,6 +64,11 @@ Get all available tables <br>
 Show all users <br>
 <i>SELECT * FROM mysql.user;</i><br>
 
+Create a new super user <br>
+<i>CREATE USER 'myuser'@'%' IDENTIFIED BY 'mypass';</i><br>
+<pre>GRANT ALL ON *.* TO 'myuser'@'%';</pre><br>
+<i>flush privileges;</i> <br>
+
 
 
 <br>
