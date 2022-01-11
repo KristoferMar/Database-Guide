@@ -43,7 +43,8 @@ Different Types of SQL JOINs are: <br>
 
 <br>
 <h2>Mysql</h2>
-Information<br>
+
+##### Information 
 <a href="https://github.com/KristoferMar/Database-Guide/blob/master/MySQL/mysql.md" target="_blank">https://github.com/KristoferMar/Database-Guide/blob/master/MySQL/mysql.md</a><br>
 
 Detect if you have MySQL installed with <br>
